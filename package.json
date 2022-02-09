@@ -1,0 +1,21 @@
+{
+  "name": "mean-stack-tasklist-app",
+  "version": "1.0.0",
+  "description": "Full stack Mean stack Task list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Task",
+    "List"
+  ],
+  "author": "Snaye Sotashe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongojs": "^3.1.0"
+  }
+}

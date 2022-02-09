@@ -6,7 +6,7 @@ var router = express.Router()
 //set router for the home page
 
 //get request
- router.get('/', (req,res,next)=>{
+ router.get('./client/src/index.html', (req,res,next)=>{
 
     res.render("index.html")
 

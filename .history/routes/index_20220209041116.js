@@ -8,7 +8,7 @@ var router = express.Router()
 //get request
  router.get('/', (req,res,next)=>{
 
-    res.render("index.html")
+    res.render("/client/src/index.html")
 
 
  })
